@@ -14,6 +14,8 @@ This example shows how a simple controller can be built on a readily available A
 3. Opening controlArduino.slx and press the build icon to test the hardware build process
 4. To run the model at four dial settings and see performance run plotResults.m.
 
+You will need at least MATLAB, Simulink, Simscape, and Stateflow to run this example.
+
 ### **Disclaimer**
 This is intended as an example for people to build on if they are working on ventilator projects and is not a working design in itself.
 
