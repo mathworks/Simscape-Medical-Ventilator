@@ -4,8 +4,8 @@ function plotCondensation(simlog)
 % humidifier and the patient's respiration.
 % Get simulation results
 
-t = simlog.Expiratory_Tube.W.series.time;
-W = simlog.Expiratory_Tube.W.series.values('kg/s');
+t = simlog.Expiratory.Expiratory_Tube.W.series.time;
+W = simlog.Expiratory.Expiratory_Tube.W.series.values('kg/s');
 
 % Compute accumulation of condensate
 M = cumtrapz(t, W);
